@@ -29,8 +29,8 @@
     .nav__burger {
         display: block;
         position: fixed;
-        top: 68px;
-        right: 26px;
+        /* top: 68px;
+        right: 26px; */
     }
     .nav__burgerLink {
         text-decoration: none;
@@ -46,25 +46,46 @@
     }
     .nav__burgerLine {
         display: block;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
         background-color: black;
         position: fixed;
         top: 15px;
         right: 15px;
+        z-index: 5;
+        transition: 0.6s;
     }
     .nav__burgerCheck {
         position: fixed;
-        top: 15px;
-        right: 15px;
-        z-index: 5;
-        width: 40px;
-        height: 40px;
-        opacity: 0.5;
+        top: 25px;
+        right: 25px;
+        z-index: 10;
+        width: 30px;
+        height: 30px;
+        opacity: 0;
     }
-      
+    .nav__burgerList {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 66px 0  0 26px;
+        background-color: white;
+        height: 100vh;
+        transform: translateX(600%);
+        transition: 0.6s;
+    }
+    .nav__burgerCheck:checked ~ .nav__burgerList {
+        transform: none;
+        transition: 0.6s;
+    }
+    .nav__burgerCheck:checked ~     .nav__burgerLine {
+        transform: rotate(-45deg);
+        transition: 0.6s;
+    }
 
     
+
     
     
 }
