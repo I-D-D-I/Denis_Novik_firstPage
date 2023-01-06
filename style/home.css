@@ -19,7 +19,7 @@
 .home__desktop {
     display: block;
     background-color: #f6f6f6;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
