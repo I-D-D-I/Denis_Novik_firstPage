@@ -3,6 +3,10 @@
     padding: 32px 0;
 }
 
+.nav__burger {
+    display: none;
+}
+
 .nav__list {
     display: flex;
     justify-content: space-between;
@@ -21,5 +25,47 @@
 @media (max-width: 1024px) {
     .nav {
         display: none;
-        }
+    }
+    .nav__burger {
+        display: block;
+        position: fixed;
+        top: 68px;
+        right: 26px;
+    }
+    .nav__burgerLink {
+        text-decoration: none;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px; 
+        color: #828282;
+        transition: 0.5s;
+    }
+    .nav__burgerLink:hover {
+        color: black;
+        transition: 0.5s;
+    }
+    .nav__burgerLine {
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+    }
+    .nav__burgerCheck {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 5;
+        width: 40px;
+        height: 40px;
+        opacity: 0.5;
+    }
+      
+
+    
+    
+    
 }
+
