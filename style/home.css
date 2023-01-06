@@ -1,0 +1,57 @@
+.home {
+    padding: 40px 0 104px;
+}
+
+.home__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 49px;
+}
+
+.home__title {
+font-family: "Gilroy-Bold";
+font-size: 47px;
+line-height: 59px;
+max-width: 123px;
+}
+
+.home__desktop {
+    display: block;
+    background-color: #f6f6f6;
+}
+
+.home__adaptive {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+}
+
+.home__pictures {
+    max-width: 100%;
+    min-height: auto;
+    background-color: gray;
+}
+
+
+@media (max-width: 1024px) {
+    .home__desktop {
+        display: none;
+    }
+    .home__adaptive {
+        display: block;
+    }
+}
+
+@media (max-width: 674px) {
+    .home__top {
+        flex-direction: column;
+        align-items: start;
+        gap: 23px 0;
+        margin-bottom: 36px;
+        }
+    .home {
+            padding-bottom: 83px;
+        }
+}

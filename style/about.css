@@ -1,0 +1,33 @@
+.about {
+    background-color: #F6F6F6;
+    padding: 120px 0 107px;
+}
+
+.about__title {
+    margin-bottom: 22px;
+}
+
+.about__info {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.about__text {
+    text-align: center;
+}
+
+@media (max-width: 920px) {
+    .home__desktop {
+        display: none;
+    }
+    .home__adaptive {
+        display: block;
+    }
+    .about {
+        padding-top: 81px;
+        padding-bottom: 76px;
+    }
+}

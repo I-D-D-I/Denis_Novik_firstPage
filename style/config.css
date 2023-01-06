@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #070707;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+        }
+}
+
