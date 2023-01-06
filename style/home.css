@@ -19,13 +19,13 @@
 .home__desktop {
     display: block;
     background-color: #f6f6f6;
-    max-width: 100%;
-    min-height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .home__adaptive {
     display: none;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     background-color: #f6f6f6;
 }
@@ -52,6 +52,7 @@
     }
     .home__adaptive {
         display: block;
+        margin: 0 auto;
     }
     /* .home__pictures {
         max-width: 100%;

@@ -19,15 +19,3 @@
     text-align: center;
 }
 
-@media (max-width: 920px) {
-    .home__desktop {
-        display: none;
-    }
-    .home__adaptive {
-        display: block;
-    }
-    .about {
-        padding-top: 81px;
-        padding-bottom: 76px;
-    }
-}
