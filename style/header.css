@@ -46,21 +46,27 @@
     }
     .nav__burgerLine {
         display: block;
-        width: 30px;
-        height: 30px;
+        width: 33px;
+        height: 4px;
         background-color: black;
         position: fixed;
-        top: 15px;
-        right: 15px;
+        top: 20px;
+        right: 20px;
         z-index: 5;
         transition: 0.6s;
     }
+    .nav__burgerLine:nth-child(2) {
+        top: 27px;
+    }
+    .nav__burgerLine:nth-child(3) {
+        top: 34px;
+    }
     .nav__burgerCheck {
         position: fixed;
-        top: 25px;
-        right: 25px;
+        top: 15px;
+        right: 16px;
         z-index: 10;
-        width: 30px;
+        width: 40px;
         height: 30px;
         opacity: 0;
     }
@@ -79,13 +85,20 @@
         transform: none;
         transition: 0.6s;
     }
-    .nav__burgerCheck:checked ~     .nav__burgerLine {
-        transform: rotate(-45deg);
+    .nav__burgerCheck:checked ~ .nav__burgerLine {
+        opacity: 1;
+        transform: rotate(-45deg) scale(1, 1) translate(-5px, 5px);
         transition: 0.6s;
     }
-
-    
-
+    .nav__burgerCheck:checked ~ .nav__burgerLine:nth-child(2) {
+        transform: rotate(45deg) scale(1, 1) translate(1px, -1px);
+        transition: 0.6s;
+    }
+    .nav__burgerCheck:checked ~ .nav__burgerLine:nth-child(3) {
+        transform: rotate(0deg) scale(0.2, 0.2);
+        opacity: 0;
+        transition: 0.6s;
+    }
     
     
 }
