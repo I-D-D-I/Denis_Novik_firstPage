@@ -10,15 +10,17 @@
 }
 
 .home__title {
-font-family: "Gilroy-Bold";
-font-size: 47px;
-line-height: 59px;
-max-width: 123px;
+    font-family: "Gilroy-Bold";
+    font-size: 47px;
+    line-height: 59px;
+    max-width: 123px;
 }
 
 .home__desktop {
     display: block;
     background-color: #f6f6f6;
+    max-width: 100%;
+    height: auto;
 }
 
 .home__adaptive {
@@ -35,15 +37,6 @@ max-width: 123px;
 }
 
 
-@media (max-width: 1024px) {
-    .home__desktop {
-        display: none;
-    }
-    .home__adaptive {
-        display: block;
-    }
-}
-
 @media (max-width: 674px) {
     .home__top {
         flex-direction: column;
@@ -54,4 +47,18 @@ max-width: 123px;
     .home {
             padding-bottom: 83px;
         }
+}
+
+@media (max-width: 500px) {
+    .home__desktop {
+        display: none;
+    }
+    .home__adaptive {
+        display: block;
+    }
+    .home__pictures {
+        max-width: 100%;
+        min-height: auto;
+        background-color: gray;
+    }
 }
