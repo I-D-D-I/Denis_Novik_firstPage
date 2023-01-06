@@ -19,8 +19,8 @@
 .home__desktop {
     display: block;
     background-color: #f6f6f6;
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    min-height: auto;
 }
 
 .home__adaptive {
@@ -30,11 +30,11 @@
     background-color: #f6f6f6;
 }
 
-.home__pictures {
+/* .home__pictures {
     max-width: 100%;
     min-height: auto;
     background-color: gray;
-}
+} */
 
 
 @media (max-width: 674px) {
@@ -47,18 +47,15 @@
     .home {
             padding-bottom: 83px;
         }
-}
-
-@media (max-width: 500px) {
     .home__desktop {
         display: none;
     }
     .home__adaptive {
         display: block;
     }
-    .home__pictures {
+    /* .home__pictures {
         max-width: 100%;
         min-height: auto;
         background-color: gray;
-    }
+    } */
 }
