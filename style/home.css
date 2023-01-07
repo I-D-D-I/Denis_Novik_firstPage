@@ -10,53 +10,25 @@
 }
 
 .home__title {
-    font-family: "Gilroy-Bold";
-    font-size: 47px;
-    line-height: 59px;
-    max-width: 123px;
+    font-family: 'Bebas Neue', Arial, Helvetica, cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    /* color: #FFFFFF; */
+    /* width: 600px; */
 }
 
 .home__desktop {
     display: block;
-    background-color: #f6f6f6;
+    background-color: #3A4F63;
     width: 100%;
     height: auto;
 }
-
-.home__adaptive {
-    display: none;
-    width: 100%;
-    height: auto;
-    background-color: #f6f6f6;
-}
-
-/* .home__pictures {
-    max-width: 100%;
-    min-height: auto;
-    background-color: gray;
-} */
-
-
-@media (max-width: 674px) {
-    .home__top {
-        flex-direction: column;
-        align-items: start;
-        gap: 23px 0;
-        margin-bottom: 36px;
-        }
-    .home {
-            padding-bottom: 83px;
-        }
-    .home__desktop {
-        display: none;
-    }
-    .home__adaptive {
-        display: block;
-        margin: 0 auto;
-    }
-    /* .home__pictures {
-        max-width: 100%;
-        min-height: auto;
-        background-color: gray;
-    } */
+.home__info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* color: #FFFFFF; */
 }

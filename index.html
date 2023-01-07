@@ -4,63 +4,56 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Denis Novik - personal site</title>
+  <title>Konstruct - site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
   <header>
     <div class="container">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li><a href="#Home" class="nav__link">Home</a></li>
-          <li><a href="#About" class="nav__link">About me</a></li>
-          <li><a href="#Skills" class="nav__link">Skills</a></li>
-          <li><a href="#Portfolio" class="nav__link">Portfolio</a></li>
-          <li><a href="#Contacts" class="nav__link">Contacts</a></li>
-        </ul>
-      </nav>
-      <nav class="nav__burger">
-        <input class="nav__burgerCheck" type="checkbox">
-        <span class="nav__burgerLine"></span>
-        <span class="nav__burgerLine"></span>
-        <span class="nav__burgerLine"></span>
-        <ul class="nav__burgerList">
-          <li><a class="nav__burgerLink" href="#Home">Home</a></li>
-          <li><a class="nav__burgerLink"  href="#About">About me</a></li>
-          <li><a class="nav__burgerLink"  href="#Skills">Skills</a></li>
-          <li><a class="nav__burgerLink"  href="#Portfolio">Portfolio</a></li>
-          <li><a class="nav__burgerLink" href="#Contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </div>
+      <div class="header__logo">
+        <img src="./images/Konstruct-logo-white.svg" alt="logo" width="102" height="23">
+      </div>
+      <h1 class="header__title">PARTNER WITH KONSTUCT</h1>
+      <p class="header__subtitle">An award-winning construction management firm</p>
+      <a href="#">SCROLL DOWN</a>
+    </div>    
   </header>
+  <nav>
+    <div class="container">
+      <div class="nav">
+        <div class="nav__logo">
+        <img src="./images/Konstruct-logo-black.svg" alt="logo" width="89" height="18">
+        </div>
+        <ul class="nav__list">
+          <li><a href="#Home" class="nav__link">HOME</a></li>
+          <li><a href="#About" class="nav__link">ABOUT</a></li>
+          <li><a href="#Services" class="nav__link">SERVICES</a></li>
+          <li><a href="#Work" class="nav__link">WORK</a></li>
+          <li><a href="#Contact" class="nav__link">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
   <main>  
-    <section id="Home" class="home">
+    <!-- <section id="Home" class="home">
+    </section> -->
+
+    <section id="About" class="story">
       <div class="container">
-        <div class="home__top">
-          <h1 class="home__title">Denis Novik</h1>
-          <p class="home__info">UX | UI designer <br /> 24 years old, Minsk</p>
-        </div>
-        <div class="home__pictures">
-          <img class="home__desktop" src="./images/title.jpg" alt="Portret" />
-          <img class="home__adaptive" src="./images/title_mobile.png" alt="Portret" />
-        </div>
-      </div>
-    </section>
-    <section id="About" class="about">
-      <div class="container">
-        <h2 class="title about__title">About me</h2>
+        <h2 class="title about__title">OUR STORY</h2>
         <div class="about__info">
-          <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk.<br /> I'm interested in design and everything connected with it.</p>
-          <p class="about__text"> I'm studying at courses "Web and mobile design<br /> interfaces" in IT-Academy.</p>
-          <p class="about__text"> Ready to implement excellent projects<br /> with wonderful people.</p>
+          <p class="about__text">Founded in 2011 by John Mathew <br />Smith, Konstruct has become the <br />number one construction management</p>
+          <p class="about__text"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
         </div>
       </div>
     </section>
-    <section id="Skills" class="skills">
+    <section id="Services" class="services">
       <div class="container">
-        <h2 class="title skills__title">Skills</h2>
-        <p class="skills__subtitle">I work in such programs as</p>
+        <h2 class="title skills__title">OUR CAPABILITIES</h2>
+        <p class="skills__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
         <div class="item-wrapper">
           <div class="item">
             <img src="./images/Skills/Ps.svg" alt="PS" class="item__icon">

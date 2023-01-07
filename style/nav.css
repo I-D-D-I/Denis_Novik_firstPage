@@ -1,0 +1,33 @@
+nav {
+    border-bottom: 1px solid #E6E6E6;
+    padding: 25px 0;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 450px;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 47px;
+    justify-content: center;
+}
+
+.nav__link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #48555B;
+    transition: 0.3s;
+}
+
+.nav__link:hover {
+    color: #00A4E5;
+    transition: 0.3s;
+}
+.nav__logo img {
+    width: 100%;
+    height: auto;
+}

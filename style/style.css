@@ -1,77 +1,8 @@
 @import url("./config.css");
-@import url("./fonts.css");
 @import url("./header.css");
-@import url("./home.css");
+@import url("./nav.css");
 @import url("./about.css");
 @import url("./skills.css");
 @import url("./portfolio.css");
 @import url("./contacts.css");
-
-
-
-
-/* .container {
-  width: 940px;
-  margin: 0 auto;
-}
-
-.header__menu {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  padding: 33px 0 31px;
-  border-bottom: 1px solid black;
-}
-
-.header__link {
-  text-decoration: none;
-}
-
-.home__info {
-  padding: 30px 0 30px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-
-}
-
-.home__imgphoto {
-  margin-bottom: 104px;
-}
-
-.body__text {
-  padding-bottom: 13px;
-}
-
-.about {
-  background-color: #F6F6F6;
-  padding: 120px 0 107px;
-
-}
-
-.text__title {
-  margin: 0 0 18px;
-  text-align: center;
-}
-
-.about__text {
-  margin: 0 auto;
-  text-align: center;
-  width: 485px;
-}
-
-.text__about {
-  margin: 48px 0;
-}
-
-.skills__menu {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.skills__title {
-  margin-top: 91px;
-} */
+@import url("./home.css");

@@ -9,10 +9,10 @@ html {
 }
 
 body {
-    color: #070707;
-    font-size: 18px;
-    line-height: 22px;
-    font-family: "Gilroy-Medium", sans-serif;
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
@@ -25,21 +25,22 @@ ul, li {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
 .container {
-    max-width: 940px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
 .title {
-    font-family: 'Gilroy-Bold';
-    font-size: 34px;
-    line-height: 42px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
     text-align: center;
+    color: #48555B;
+    display: swap;
 }
 
-@media (max-width: 1024px) {
-    .container {
-        max-width: 90%;
-        }
-}
 
